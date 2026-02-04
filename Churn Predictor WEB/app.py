@@ -9,7 +9,7 @@ app = FastAPI()
 # human readable       
 @app.get('/')
 def home():
-    return {'message':'Insurance Premium Prediction API'}
+    return {'message':'Churn Prediction API'}
 
 # machine readable
 @app.get('/health')
